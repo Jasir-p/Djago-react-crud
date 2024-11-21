@@ -1,0 +1,58 @@
+/* Home.css */
+
+.home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100%;
+    background: linear-gradient(135deg, #6387ff, #150b20);
+  }
+  
+  .welcome-card {
+    padding: 30px;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .welcome-card:hover {
+    box-shadow: 0 0 30px rgba(63, 63, 63, 0.187);
+  }
+  
+  .welcome-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #4A4A4A;
+  }
+  
+  .welcome-subtitle {
+    font-size: 1.25rem;
+    color: #7A7A7A;
+    margin-bottom: 30px;
+  }
+  
+  .action-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .action-buttons .action-button {
+    margin: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #dc354600;
+    border: none;
+    color: rgb(0, 92, 198);
+    outline: none;
+    box-shadow: none;
+  }
+  
+  .action-buttons .action-button:hover {
+    color: black;
+    outline: none;
+    box-shadow: none;
+  }
+  
